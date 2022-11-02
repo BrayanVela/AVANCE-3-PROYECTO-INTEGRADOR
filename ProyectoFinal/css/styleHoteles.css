@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: white;
+    margin-top: 20PX;
+    padding: 0 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.nav__logo{
+    height: 100%;
+}
+
+.lista{
+    list-style: none;
+    height: 50px;
+}
+
+.listaVertical{
+    width: 50px;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    list-style: none;
+    display: none;
+}
+
+.lista li:hover .listaVertical{
+    display: block;
+}
+
+.listaVertical--buton{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 30px;
+    padding: 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+hr {
+    border: 3px solid rgb(66, 172, 66); 
+    border-radius: 300px/10px; 
+    height: 0px; 
+    text-align: center;
+}
+
+article{
+    margin: 50px;
+}
+
+.navInfo{
+    display: flex;
+}
+
+.navInfo__div{
+    width: 400px;
+}
+
+section{
+    margin: 50px;
+}
+
+.hoteles{
+    display: flex;
+   
+}
+
+.hoteles__div{
+    height: 300px;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.hoteles__div--img{
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a :hover{ 
+    color: rgb(66, 172, 66) ; 
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: rgb(185, 179, 179);
+    height: 300px;
+    margin-top: 20PX;
+    padding: 0 100px;
+    color: black;
+}
+
+.footer__div{
+    width: 250px;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.footer__nav{
+    display: flex;
+}
+
+.divFooter{
+    padding-top: 60px;
+    padding-right: 40px;
+    display: flex;
+}
+
+.divFooter__p{
+
+    margin-right: 600px;
+}
+
+.divFooter__links{
+    padding: 20px;
+}
